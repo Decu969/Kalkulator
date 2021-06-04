@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <div class="card">
+            <div class="container">
+
+                <h1>Kalkulator BMI</h1>
+                <form>
+                    <label for="weight"><h2>Waga</h2></label>
+                    <input id="weight" type="number">
+
+                    <label for="height"><h2>Wzrost</h2></label>
+                    <input id="height" type="number" >
+
+                    <input class="reset-btn" id="reset" type="reset" value="Clear">
+                </form>
+
+                <div class="bmi">
+                    Twoje BMI: <h4 id="result"></h4> 
+                    <span>Odpowiednia waga (BMI 18.5 to 24.9)</span>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+ 
+    
+<script src="script.js"></script>
+</body>
+</html>
